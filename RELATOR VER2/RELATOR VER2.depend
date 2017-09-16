@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1505350498 source:/home/grinch/Desktop/Untitled Folder/RELATOR VER2/main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+
