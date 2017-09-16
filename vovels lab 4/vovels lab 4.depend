@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1505441818 source:/home/grinch/Desktop/Untitled Folder/vovels lab 4/main.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<cstring>
+
