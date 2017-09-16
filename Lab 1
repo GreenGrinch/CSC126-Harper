@@ -1,0 +1,38 @@
+/*************************************************************************
+* Name: Rafal Dzierzanowski CSC 121
+* Date: 09.07.2017 Lab 1
+*************************************************************************
+* Statement: Determine owner, selling cost and commission for house sale
+* Specifications:
+* Input - owner (string) and selling price (double)
+* Output- owner (string), selling cost (double) and commission (double)
+*************************************************************************/
+
+// header files for I/O and string objects
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+
+
+int main()
+{
+	string seller;
+	double price;
+	double cost;
+	double commission;
+	double total;
+
+
+cout.precision(2) << fixed;
+	cout<< "This program calculates the cost to sell a home\n and the comission paid to an individual sales agent.\n";
+	cout<< " Please tell me your last name and the sales price after space\n";
+	cin >> seller >> price;
+	cout << "Home Owner << setw (10) << Price of Home << setw (10) << Seller's Cost << setw (10) << Agent's Comission<< setw (10) << \n";
+	cost = price *0.06;
+	commission = price * 0.015;
+	total = cost +commission + price;
+	cout<< left<< seller<< setfill ('*') << setw (10) <<price << setfill ('*') << setw (10) << " "<< setfill ('*') << setw (10)<< cost << " "<< setfill ('*') << setw (10) << commission<<  setfill ('*') << setw (10)<< " " << "\n";
+
+}
