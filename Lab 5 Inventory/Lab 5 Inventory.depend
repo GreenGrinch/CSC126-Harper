@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1505449128 source:/home/grinch/Desktop/Untitled Folder/Lab 5 Inventory/main.cpp
+	<iostream>
+	<iostream>
+	<sstream>
+	<string>
+	<cstring>
+	<ctype.h>
+
